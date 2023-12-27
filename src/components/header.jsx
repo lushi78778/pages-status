@@ -83,7 +83,7 @@ const Header = observer(({ getSiteData }) => {
                         }`}
                       </span>
                       <div className="update">
-                        <span>更新频率 3 小时</span>
+                        <span>更新频率 5 分钟</span>
                         <Refresh className="refresh" onClick={refreshStatus} />
                       </div>
                     </div>
