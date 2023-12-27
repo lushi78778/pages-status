@@ -1,5 +1,5 @@
-# 使用官方的 Node.js 14 镜像作为基础镜像
-FROM node:14
+# 使用官方的 Node.js 镜像作为基础镜像
+FROM node:18
 
 # 安装 pnpm
 RUN npm install -g pnpm
